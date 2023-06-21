@@ -3,8 +3,8 @@ class DBConnection {
   async getConnection() {
      try {
        return await mssql.connect({
-              user: 'sa',
-              password: '1234',
+              user: 'sys_admin',
+              password: '12345',
               server: 'DAISY-CARBAJAL',
               database: 'fleurseternellehn',
               port: 1433,
